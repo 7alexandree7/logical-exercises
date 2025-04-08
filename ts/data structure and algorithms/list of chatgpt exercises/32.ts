@@ -21,3 +21,4 @@ const indexUsers45 = user45.reduce((acumulador: any, itemAtual: any) => {
 
 
 console.log(indexUsers45) 
+// { '10': { id: 10, name: 'John' },

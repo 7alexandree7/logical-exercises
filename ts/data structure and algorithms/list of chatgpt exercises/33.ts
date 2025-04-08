@@ -15,9 +15,10 @@ const users22: Users22[] = [
 
 const indexUsers22 = users22.reduce((acumulador: any, itemAtual: any) => {
 
-    acumulador[itemAtual.id] = itemAtual
+    acumulador[itemAtual.id] = itemAtual.n
     return acumulador
 
 }, {} as Record<number, Users22>)
 
 console.log(indexUsers22)
+// { '100': { id: 100, name: 'alexandre' },
